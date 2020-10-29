@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <style type="text/css" media="screen">
+        table {
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+
+        table th {
+            border: 1px solid black;
+        }
+
+        table td {
+            text-align: center;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <form action="/api/users" method="post">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Name"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" placeholder="Email"><br>
+            <label for="children">Number of children:</label><br>
+            <input type="text" id="children" name="children" placeholder="Children"><br>
+            <label for="date">Date of Birth:</label><br>
+            <input type="date" id="date" name="date"><br>
+
+            <input type="submit" value="Submit">
+        </form><br>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th style="width: 200px;">Name</th>
+                    <th style="width: 200px;">Email</th>
+                    <th style="width: 200px;">Date of Birth</th>
+                    <th style="width: 200px;"># of children</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Smith</td>
+                    <td>test1@example.com</td>
+                    <td>2020-10-28</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>test2@example.com</td>
+                    <td>2020-10-28</td>
+                    <td>12</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>

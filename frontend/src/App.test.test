@@ -1,0 +1,20 @@
+// TODO: fix mock, need to provide table with Data[] -- time ran out
+
+// import React from 'react';
+// import { render } from '@testing-library/react';
+// const App = require('./App').default;
+
+// cant stub/mock/proxy require the table which needs row Data to build
+// jest.doMock('./components/Table/Table', () => {
+//     return {
+//         __esModule: true,
+//         A: true,
+//         default: () => {
+//             return <div></div>;
+//         },
+//     };
+// });
+
+// test('App should render without crashing', () => {
+//     render(<App />);
+// });

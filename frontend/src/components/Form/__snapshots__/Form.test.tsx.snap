@@ -1,0 +1,230 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form Test Suite Form tree should match snapshot one 1`] = `
+<form
+  className="makeStyles-form-18"
+  onSubmit={[Function]}
+>
+  <div
+    className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+  >
+    <label
+      className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined Mui-required Mui-required"
+      data-shrink={false}
+      htmlFor="name"
+      id="name-label"
+    >
+      Name
+      <span
+        aria-hidden={true}
+        className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+      >
+         
+        *
+      </span>
+    </label>
+    <div
+      className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+      onClick={[Function]}
+    >
+      <input
+        aria-invalid={false}
+        autoComplete="name"
+        autoFocus={true}
+        className="MuiInputBase-input MuiOutlinedInput-input"
+        disabled={false}
+        id="name"
+        name="name"
+        onAnimationStart={[Function]}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        required={true}
+        type="text"
+      />
+      <fieldset
+        aria-hidden={true}
+        className="PrivateNotchedOutline-root-21 MuiOutlinedInput-notchedOutline"
+      >
+        <legend
+          className="PrivateNotchedOutline-legendLabelled-23"
+        >
+          <span>
+            Name
+             *
+          </span>
+        </legend>
+      </fieldset>
+    </div>
+  </div>
+  <div
+    className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+  >
+    <label
+      className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined Mui-required Mui-required"
+      data-shrink={false}
+      htmlFor="email"
+      id="email-label"
+    >
+      Email
+      <span
+        aria-hidden={true}
+        className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+      >
+         
+        *
+      </span>
+    </label>
+    <div
+      className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+      onClick={[Function]}
+    >
+      <input
+        aria-invalid={false}
+        autoComplete="email"
+        autoFocus={false}
+        className="MuiInputBase-input MuiOutlinedInput-input"
+        disabled={false}
+        id="email"
+        name="email"
+        onAnimationStart={[Function]}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        required={true}
+        type="text"
+      />
+      <fieldset
+        aria-hidden={true}
+        className="PrivateNotchedOutline-root-21 MuiOutlinedInput-notchedOutline"
+      >
+        <legend
+          className="PrivateNotchedOutline-legendLabelled-23"
+        >
+          <span>
+            Email
+             *
+          </span>
+        </legend>
+      </fieldset>
+    </div>
+  </div>
+  <div
+    className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+  >
+    <label
+      className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined Mui-required Mui-required"
+      data-shrink={false}
+      htmlFor="kids"
+      id="kids-label"
+    >
+      Number of children
+      <span
+        aria-hidden={true}
+        className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+      >
+         
+        *
+      </span>
+    </label>
+    <div
+      className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+      onClick={[Function]}
+    >
+      <input
+        aria-invalid={false}
+        autoFocus={false}
+        className="MuiInputBase-input MuiOutlinedInput-input"
+        disabled={false}
+        id="kids"
+        max={9999}
+        min={0}
+        name="kids"
+        onAnimationStart={[Function]}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        required={true}
+        type="number"
+      />
+      <fieldset
+        aria-hidden={true}
+        className="PrivateNotchedOutline-root-21 MuiOutlinedInput-notchedOutline"
+      >
+        <legend
+          className="PrivateNotchedOutline-legendLabelled-23"
+        >
+          <span>
+            Number of children
+             *
+          </span>
+        </legend>
+      </fieldset>
+    </div>
+  </div>
+  <div
+    className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+  >
+    <label
+      className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled Mui-required Mui-required"
+      data-shrink={true}
+      htmlFor="date"
+      id="date-label"
+    >
+      Birthday
+      <span
+        aria-hidden={true}
+        className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+      >
+         
+        *
+      </span>
+    </label>
+    <div
+      className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+      onClick={[Function]}
+    >
+      <input
+        aria-invalid={false}
+        autoFocus={false}
+        className="MuiInputBase-input MuiInput-input"
+        defaultValue="2002-10-29"
+        disabled={false}
+        id="date"
+        max="2002-10-29"
+        min="1900-01-01"
+        name="date"
+        onAnimationStart={[Function]}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        required={true}
+        type="date"
+      />
+    </div>
+  </div>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-submit-20 MuiButton-containedPrimary MuiButton-fullWidth"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="submit"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Submit
+    </span>
+  </button>
+</form>
+`;
