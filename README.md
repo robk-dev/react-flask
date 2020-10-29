@@ -38,4 +38,5 @@ npm test
 * setup a production server, added nginx with separate hosting for static html
 * changed folder structure for /routes and /models
 * added more UI components to control them more granullarly and packaged each one as a lib with monorepo tools/rush.js
+* added pagination on the backend instead of retrieving all users on each request
 * (added csrf protection and authentication but outside the scope)
