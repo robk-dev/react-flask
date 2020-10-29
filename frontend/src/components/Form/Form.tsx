@@ -32,7 +32,7 @@ type FormInputs = {
     name: string;
     email: string;
     date: Date;
-    children: number;
+    kids: number;
 };
 
 interface FormProps {

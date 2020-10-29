@@ -5,7 +5,6 @@ from sqlalchemy_serializer import SerializerMixin
 
 db = SQLAlchemy()
 
-
 @dataclass
 class User(db.Model, SerializerMixin):
     id: int
@@ -24,4 +23,4 @@ class User(db.Model, SerializerMixin):
         return {c.name: getattr(self, c.name) for c in self.__table__.columns}
 
     def __repr__(self):
-        return '<User %r>' % self.username
+        return '<User %r>' % self.name

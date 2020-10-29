@@ -125,7 +125,7 @@ export const MyTable: FC<{ rows: Data[] }> = ({ rows }) => {
                             {sort_filter(rows, getComparator(order, orderBy))
                                 .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
                                 .map((row, index) => {
-                                    const labelId = `enhanced-table-checkbox-${index}`;
+                                    const labelId = `key-${index}`;
 
                                     return (
                                         <TableRow
