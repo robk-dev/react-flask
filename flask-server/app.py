@@ -23,7 +23,7 @@ def my_index():
 
 @ app.route('/api/users', methods=['POST'])
 def handle_submit():
-    if request.method == "POST":
+    if request.method == "POST": # TODO: add form validation
         form = request.get_json()
         name = form['name']
         email = form['email']

@@ -49,7 +49,7 @@ const useStyles = makeStyles((theme: Theme) =>
             marginBottom: theme.spacing(2),
         },
         table: {
-            minWidth: 750,
+            // minWidth was breaking proper resizing; TODO: test on different screen sizes 
         }
     }),
 );
