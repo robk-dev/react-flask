@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import { Form } from './components/Form/Form';
 import { Data, MyTable } from './components/Table/Table';
+import { Fluid } from './components/Fluid/Fluid';
 
 import axios from './axios';
 
@@ -42,8 +43,10 @@ export default function App() {
 
     return (
         <Container component="main" >
+            <Fluid />
             <div className={classes.paper}>
                 <CssBaseline />
+
                 <Form setData={setData} />
                 <MyTable rows={data} />
             </div>
