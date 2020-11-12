@@ -1,8 +1,0 @@
-.fluid-canvas {
-    /* background-color: rgba(230, 230, 230, 0.75); */
-    position: absolute;
-    overflow: hidden;
-    left: 0;
-    top: 0;
-    background: -webkit-canvas(animation) no-repeat 50% 50%;
-}

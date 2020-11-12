@@ -6,6 +6,8 @@ import { Form } from './Form';
 
 describe('Form Test Suite', () => {
     let container: any = null;
+
+    const setData = () => {};
     beforeEach(() => {
         container = document.createElement("div");
         document.body.appendChild(container);
@@ -17,12 +19,12 @@ describe('Form Test Suite', () => {
 
     test('Form should render without crashing', async () => {
         await act(async () => {
-            render(<Form />, container);
+            render(<Form setData={setData} />, container);
         });
     });
     test('Each input should have a label', async () => {
         await act(async () => {
-            render(<Form />, container);
+            render(<Form setData={setData}/>, container);
         });
         const name_label = screen.getByLabelText(/Name/i);
         expect(name_label).toBeInTheDocument();
@@ -35,7 +37,7 @@ describe('Form Test Suite', () => {
     });
 
     test('Form tree should match snapshot one', () => {
-        const table = renderer.create(<Form />)
+        const table = renderer.create(<Form setData={setData}/>)
         const tree = table.toJSON();
         expect(tree).toMatchSnapshot();
     });

@@ -1,7 +1,5 @@
 # React Flask
 
-> This was a timed homework~
-
 ## Quickstart
 
 ```sh
