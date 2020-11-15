@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
 import './App.css';
+import axios from './axios';
+import React, { useEffect, useState } from 'react';
+
 import { Form } from './components/Form/Form';
 import { Data, MyTable } from './components/Table/Table';
-
-import axios from './axios';
 
 import Container from '@material-ui/core/Container';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -32,7 +32,8 @@ const getData = async (setData: Function) => {
     } catch (error) {
         console.error(error);
     }
-}
+};
+
 export default function App() {
     const classes = useStyles();
     const [data, setData] = useState<Data[] | []>([]);

@@ -17,7 +17,6 @@ with app.app_context():
 
 @ app.route("/")
 def my_index():
-
     return render_template("index.html", csrf="csrf_token")
 
 
